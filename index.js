@@ -3,7 +3,6 @@ function fetchBooks() {
     .then((response) => response.json()) // Parse the response as JSON
     .then((data) => renderBooks(data)); // Call renderBooks with the JSON data
 }
-}
 
 function renderBooks(books) {
   const main = document.querySelector('main');
